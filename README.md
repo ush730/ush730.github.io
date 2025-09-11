@@ -1,1 +1,1 @@
-# ush730.github.io
+# ush730
