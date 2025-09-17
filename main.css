@@ -273,12 +273,18 @@ a:focus,a:hover {
 }
 
 .project-1.load-bg .project-image {
-    background-image: url(./images/dtoi.jpg)
+    background-image: url(./images/todoList.jpg)
 }
+
 
 .project-2.load-bg .project-image {
     background-image: url(./images/s_crawlling.jpg)
 }
+
+.project-3.load-bg .project-image {
+    background-image: url(./images/dtoi.jpg)
+}
+
 
 .project-2 {
     background-color: #ed1a44 
