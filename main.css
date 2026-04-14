@@ -138,7 +138,10 @@ a:focus,a:hover {
   
 .projects {
     position: relative;
-    clear: both
+    clear: both;
+    max-width: 1500px;  /* 네비게이션바 너비와 동일하게 맞춰 균형 유지 */
+    margin: 0 auto;     /* 좌우 중앙 정렬 */
+    display: flow-root; /* float 해제 및 영역 확보 */
 }
 
 .project {
@@ -268,8 +271,34 @@ a:focus,a:hover {
 
 .project-1 {
     background-color: #0b2a3e;
-    width: 66.66%;
-    height: 700px
+    width: 50%;         /* 다른 프로젝트와 동일하게 맞춤 */
+    height: 350px;      /* 다른 프로젝트와 동일하게 맞춤 */
+}
+
+.project-2 {
+    background-color: #ed1a44 ;
+    width: 50%;         /* 다른 프로젝트와 동일하게 맞춤 */
+    height: 350px;      /* 다른 프로젝트와 동일하게 맞춤 */
+}
+
+.project-3 {
+    background-color: #000;
+    width: 50%;         /* 다른 프로젝트와 동일하게 맞춤 */
+    height: 350px;      /* 다른 프로젝트와 동일하게 맞춤 */
+}
+
+.project-4 {
+    background-color: #42b983;
+    width: 50%;         /* 다른 프로젝트와 동일하게 맞춤 */
+    height: 350px;      /* 다른 프로젝트와 동일하게 맞춤 */
+}
+
+.project-5 {
+    background-color: #a67d5d
+}
+
+.project-6 {
+    background-color: #1faec8
 }
 
 .project-1.load-bg .project-image {
@@ -285,26 +314,12 @@ a:focus,a:hover {
     background-image: url(./images/dtoi.jpg)
 }
 
-
-.project-2 {
-    background-color: #ed1a44 
+.project-4.load-bg .project-image {
+    background-image: url(./images/komca.jpg)
 }
 
-.project-3 {
-    background-color: #000
-}
 
-.project-4 {
-    background-color: #42b983
-}
 
-.project-5 {
-    background-color: #a67d5d
-}
-
-.project-6 {
-    background-color: #1faec8
-}
 
 .rank {
     color: #b5b5b5;
